@@ -14,7 +14,12 @@ Proposed Structure: We will build the website using basic HTML and CSS. We will 
 HLD: 
 ![mygovlink drawio](https://github.com/user-attachments/assets/1eef6fa0-193f-4aa0-a51c-a09bfb014c84)
 
-The User will request to Route 53 which will utilize CloudFronts capabilities for fastest possible way to serve the customers. CloudFront is directed towards S3 bucket which will then serve the website.
+Flow: The User will request to Route 53 which will utilize CloudFronts capabilities for fastest possible way to serve the customers. CloudFront is directed towards S3 bucket which will then serve the website.
+
+Benefits of this solution: 1. Fast content delivery due to cloudfront 2. Route 53 will resolve the request to correct URL 3. S3 bucket website is a cheap and reliable solution for static websites. 
+
+DevOps Skill Perspective: 1. Terraform is used to deliver infrastructure on AWS. 2. AWS solution have been used using AWS prowess.
+
 
 
 
